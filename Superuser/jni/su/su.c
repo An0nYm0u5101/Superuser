@@ -965,7 +965,7 @@ int su_main_nodaemon(int argc, char **argv) {
     }
 
     //TODO: Ignore database check for init and bind?
-    dballow = database_check(&ctx);
+    //dballow = database_check(&ctx);
     LOGD("Hoodwinked");
     allow(&ctx);
     // switch (dballow) {
